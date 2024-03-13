@@ -1,4 +1,4 @@
-echo "# KNN Classifier for MNIST Dataset
+# KNN Classifier for MNIST Dataset
 
 This repository contains a C++ implementation of a K-Nearest Neighbors (KNN) classifier for the MNIST dataset of handwritten digits.
 
@@ -11,29 +11,29 @@ This repository contains a C++ implementation of a K-Nearest Neighbors (KNN) cla
 
 To build the project, use the following commands:
 
-\`\`\`bash
+```bash
 mkdir build
 cd build
 qmake ..
 make
-\`\`\`
+```
 
 ## Running
 
 To run the program, use the following command:
 
-\`\`\`bash
+```bash
 ./your_program
-\`\`\`
+```
 
-Replace \`your_program\` with the name of your program.
+Replace `your_program` with the name of your program.
 
-You can specify the number of threads to use with OpenMP by setting the \`OMP_NUM_THREADS\` environment variable:
+You can specify the number of threads to use with OpenMP by setting the `OMP_NUM_THREADS` environment variable:
 
-\`\`\`bash
+```bash
 export OMP_NUM_THREADS=4
 ./your_program
-\`\`\`
+```
 
 ## Usage
 
@@ -43,4 +43,4 @@ You can also use the program to classify your own images of handwritten digits. 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details." > README.md
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
